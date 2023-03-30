@@ -10,7 +10,7 @@ var transporter = nodemailer.createTransport({
 })
 
 const mailOptions = {
-  from: '000@ladykatrin.ru',
+  from: 'John Doe <000@ladykatrin.ru>',
   to: '1580509@gmail.com',
   subject: 'Send using AWS Node.js',
   text: '...опа!',
